@@ -1,0 +1,13 @@
+/*user-actions*/
+export const SET_LOGIN_STATE = 'SET_LOGIN_STATE';
+export const ON_CHANGE_LOGIN_FORM = 'ON_CHANGE_LOGIN_FORM';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const POP_TOAST = 'POP_TOAST';
+export const REMOVE_TOAST = 'REMOVE_TOAST';
+export const ON_ADD_DEMO_FORM_CHANGE = 'ON_ADD_DEMO_FORM_CHANGE';
+export const ON_SUBMIT_DEMO_SUCCESS = 'ON_SUBMIT_DEMO_SUCCESS';
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+export const TOGGLE_NAV_USER_MENU = 'TOGGLE_NAV_USER_MENU';
+export const TOGGLE_NAV_SIDEBAR = 'TOGGLE_NAV_SIDEBAR'
+export const SET_COPY = 'SET_COPY';
+export const ADD_DEMO = 'ADD_DEMO';

@@ -1,0 +1,60 @@
+.toastr{
+  position: var(--pos-toastr);
+  top: var(--pos-toastr-top);
+  right: var(--pos-toastr-right);
+  z-index: var(--depth-toastr);
+  width: var(--dim-toastr-width);
+ }
+ 
+ .toastr .toast{
+   opacity: 0;
+   position: relative;
+   margin-top: var(--dim-toast-margin-top);
+   padding: var(--dim-toast-padding);
+   border-radius: 3px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color:#fff;
+   text-align: center;
+   font-weight: bold;
+   transition: opacity 2s ease-in;
+ }
+ .toastr .toast.warning{
+   background: var(--color-toast-warning);
+   box-shadow: var(--dim-toast-warning-box-shadow);
+   transition: opacity 2s ease-in;
+ }
+ .toastr .toast.okay{
+ background: var(--color-toast-okay);
+ box-shadow: var(--dim-toast-okay-box-shadow);
+ transition: opacity 2s ease-in;
+ }
+ 
+ .toast.show{
+ opacity: 1;
+ }
+ 
+ .toastr .toast p{
+   padding-right: calc(var(--pos-toast-close-right) + .5rem);
+   font-size: var(--dim-toast-font-size);
+ }
+ 
+ .toastr .toast button{
+   position: absolute;
+   top: var(--pos-toast-close-top);
+   right: var(--pos-toast-close-right);
+   background: none;
+   color: var(--color-text-primary);
+   font-size: 1.2rem;
+   border: none;
+ }
+ 
+ @media only screen and (min-width:600px){
+   .toastr{
+     width: calc(var(--dim-toastr-width) - 25vw);
+   }
+   .toastr .toast p{
+    font-size: calc(var(--dim-toast-font-size) + .2vw);
+   }
+ }

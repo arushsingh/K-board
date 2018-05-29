@@ -1,0 +1,33 @@
+.file_listing li {
+    font-size: .9rem;
+    color: var(--color-text-secondary);
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+}
+
+.file-manager {
+    margin: 1rem 0 1rem 0;
+}
+
+.file-opener {
+    height: 10rem;
+    overflow: scroll;
+}
+
+.file-display-button {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    font-weight: 700;
+}
+
+@media only screen and (min-width:768px) {
+    .file-manager .file-opener {
+        height: 11rem;
+        overflow: auto;
+        padding-top: .3rem;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}

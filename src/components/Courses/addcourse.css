@@ -1,0 +1,140 @@
+.lkcmlwmcm-container {
+    position: absolute;
+    top: 8%;
+    width: 100%;
+}
+
+#app .add_course-container {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 0rem;
+    padding-top: 1.5rem;
+}
+
+.add_course-container input {
+    height: 2rem;
+    width: 80%;
+    border-radius: 2px;
+    border: none;
+    text-transform: none;
+    margin-bottom: 1.5rem;
+    background-color: #212121;
+    border-radius: 1%;
+    color: #ddd;
+    font-size: .9rem;
+    border: 1px solid #212121;
+    border-bottom: 1px solid;
+    border-top: none;
+}
+
+.add_course-container .summary-area-markup {
+    width: 80%;
+    height: 9rem;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    color: #ddd;
+    background-color: #202020;
+    border: 1px solid #E21F3F;
+    font-size: .9rem;
+    padding: .5rem;
+    background-color: #202020;
+}
+
+.add_course-container .button_next_container {
+    text-align: right;
+    margin-right: 10%;
+}
+
+.add_course-container .button_next_container:active {
+    border: 1px solid #E21F3F;
+}
+
+.add_course-container .button_next_container button {
+    padding: .3rem .6rem .3rem .6rem;
+    border-radius: 2px;
+    border: none;
+    background-color: #E21F3F;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    font-weight: 700;
+}
+
+.add_course-container .upload_list {
+    width: 61%;
+}
+
+.add_course-container .upload_button {
+    padding: .5rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom-right-radius: 0px;
+    background-color: #E21F3F;
+    color: white;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+.container2 .inner_add_course-container .silder_header {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 9%;
+    color: white;
+    text-transform: initial;
+}
+
+@media only screen and (max-width:320px) {
+    .add_course-container .upload_list {
+        width: 57%;
+    }
+    .add_course-container .button_next_container button {
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .lkcmlwmcm-container {
+        display: flex;
+        top: 15%;
+    }
+    #app .add_course-container {
+        max-height: 23.4rem;
+    }
+    .lkcmlwmcm-container .inheriter {
+        margin-top: 1.9rem;
+    }
+    .lkcmlwmcm-container .container2 {
+        margin-right: 5%;
+    }
+    #app .add_course-container {
+        min-height: 30rem;
+        padding-top: 7%;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .lkcmlwmcm-container {
+        position: absolute;
+        top: 19%;
+    }
+    .add_course-container .upload_list {
+        width: 66%;
+    }
+}
+
+@media only screen and (min-width:1366px) {
+    #app .add_course-container {
+        min-height: 27rem;
+        padding-top: 4%;
+    }
+    .add_course-container .upload_list {
+        width: 69%;
+    }
+    .lkcmlwmcm-container {
+        top: 17%;
+    }
+}

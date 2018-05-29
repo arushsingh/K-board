@@ -1,0 +1,24 @@
+.sidebar{
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+}
+.sidebar .icon-list{
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sidebar .icon-list li{
+  font-size: calc(var(--dim-sidebar-font-size) + .5vw);
+  flex-grow: 1;
+  text-align: center;
+  align-content: center;
+}
+
+.sidebar .icon-list li a{
+  color: var(--color-text-primary);
+  transition: color 200ms ease-in-out;
+}
+

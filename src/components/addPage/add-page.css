@@ -1,0 +1,41 @@
+.add-page ul .item{
+  font-size: var(--dim-add-page-font-size);
+  line-height: var(--dim-add-page-line-height);
+  margin: var(--dim-add-page-margin);
+  padding: var(--dim-add-page-padding);
+ }
+
+ .add-page ul .item i{
+   font-size: var(--dim-add-page-icon-font-size);
+   line-height: var(--dim-add-page-icon-line-height);
+ }
+
+@media screen and (min-width: 480px){
+  .add-page ul .item{
+   font-size: calc(var(--dim-add-page-font-size) + 1vw);
+   line-height: calc(var(--dim-add-page-line-height) + 2.5vw);
+   margin: calc(var(--dim-add-page-margin) + .2vw);
+   padding: calc(var(--dim-add-page-padding) + .7vw);
+  }
+  .add-page ul .item i{
+   font-size: calc(var(--dim-add-page-icon-font-size)+ 1vw);
+   line-height: var(--dim-add-page-icon-line-height);
+  }
+}
+
+.add-page ul{
+display: flex;
+flex-wrap: wrap;
+}
+
+.add-page ul .item{
+  flex-grow: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--color-text-secondary);
+  transition: color 800 ease-in, box-shadow 200 ease-in-out;
+}
+

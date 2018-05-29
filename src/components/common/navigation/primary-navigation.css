@@ -1,0 +1,168 @@
+.navigation{
+  color: #ddd;
+  background: #212121;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid;
+  padding:0 1rem;
+  border-bottom: 1px 1px transparent;
+  -webkit-box-shadow: 2px 3px 5px -0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 3px 5px -0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px -0px rgba(0,0,0,0.75);
+  transition: box-shadow 200ms ease-in-out;
+  border-color: rgba(0,0,0,0.14);
+  font-weight: 700;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  z-index: 100;
+}
+
+.primary-navigation{
+  height: 3.5rem;
+  list-style: none;
+  border-radius: 5px;
+  display: flex;
+  color: rgb(245, 238, 238);
+  align-items: center;
+}
+
+.primary-navigation li{
+  cursor: pointer;
+}
+
+.primary-navigation .brand{
+ text-align: center;
+  width: 100%;
+  padding-left: .3rem;
+}
+
+.primary-navigation .brand img{
+  max-height: 1.5rem;
+}
+
+.primary-navigation .brand-name{
+  letter-spacing: .2rem;
+  display: none;
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+.primary-navigation .brand-name .accent{
+color: #f70001;
+}
+
+.primary-navigation .left{
+  list-style-type: none;
+  display: flex;
+  display: none;
+  margin-left: auto;
+}
+.primary-navigation .left .links{
+margin-left: 1rem;
+font-weight: 600;
+font-size: .8rem;
+border-bottom: 1px solid #464646;
+padding: .2rem .1rem;
+text-transform: capitalize;
+}
+.primary-navigation .left .links a{
+  text-underline-position: below;
+  color: #b6b6b6;
+}
+
+.primary-navigation .sidebar-button button{
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #b6b6b6;
+  padding: .2rem .5rem;
+  /* border-color: rgba(255,255,255,.2); */
+  border: none;
+  border-radius: 2px;
+  z-index: 2;
+  -webkit-box-shadow: 1px 1px 3px -0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 3px -0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 3px -0px rgba(0,0,0,0.5);
+  font-size: 1.3rem;
+}
+.primary-navigation .user-profile{
+  border: none;
+  border-radius: 2px;
+  z-index: 2;
+  -webkit-box-shadow: 1px 1px 3px -0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 3px -0px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 3px -0px rgba(0,0,0,0.5);
+}
+.primary-navigation .user-profile button{
+  color: #b6b6b6;
+  background: none;
+  border: none;
+  padding: .3rem .7rem;
+  font-size: 1.3rem;
+
+}
+
+.navigation .side-menu{
+  position: absolute;
+  top: 4rem;
+  right: 1rem;
+  color: var(--text-primary);
+  min-width: 8rem;
+  font-weight: 400;
+  letter-spacing: .04rem;
+  padding: 2rem 2rem .75rem 1rem;
+ }
+
+ .navigation .side-menu > button{
+   position: absolute;
+   top: .5rem;
+   right: .5rem;
+   background: none;
+   border: none;
+   color: var(--color-accent);
+   font-size: 1rem;
+   cursor: pointer;
+ }
+
+ .navigation .side-menu p{
+   border-bottom: 1px solid var(--color-text-secondary);
+   padding-bottom: .25rem; 
+ }
+
+ .navigation .side-menu p span{
+  font-weight: 600;
+ }
+
+ .navigation .side-menu ul:first-child{
+   margin-top: 1rem;
+   padding-bottom: .5rem;
+ }
+ 
+ .navigation .side-menu ul li{
+   cursor: pointer;
+   margin-top: .75rem;
+ }
+
+ .navigation .side-menu ul li a{
+   color: #fff;
+   transition: color 200ms ease-in-out;
+   text-decoration: none;
+   font-weight: 500;
+
+ }
+
+ .navigation .side-menu .login_button{
+   text-align: center;
+   margin-top: 1rem;
+ }
+
+ .navigation .side-menu .login_button button{
+   padding: .5rem 1.5rem;
+   border: solid 1px var(--color-accent);
+   color:  var(--color-accent);
+   background: none;
+   font-size: 1rem;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+ 
+

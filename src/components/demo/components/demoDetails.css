@@ -1,0 +1,162 @@
+.demo-details {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.demo-details.card {}
+
+.demo-details .details {
+    flex-grow: 1;
+}
+
+.demo-details .details .banner-container {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 5rem;
+    left: 0;
+}
+
+.demo-details .details .details-container {
+    padding: 1rem 2rem 2rem 0rem;
+}
+
+.demo-details h1 {
+    font-size: 2rem;
+    letter-spacing: .05rem;
+}
+
+.demo-details .tag-container {
+    margin-top: .15rem;
+}
+
+.demo-details .tag-container .tag {
+    padding: .15rem 1rem;
+    font-size: 1.2rem;
+    color: var(--color-text-primary);
+    border-radius: 5px;
+    border: 2px solid #333;
+    margin: 0 .5rem;
+    line-height: 2.8rem;
+}
+
+.demo-details .tag-container .tag:first-child {
+    margin-left: 0;
+}
+
+.demo-details .key-value-accent {
+    margin-top: 1rem;
+    color: var(--color-text-primary);
+}
+
+.demo-details .key-value-accent .name {
+    margin-left: .5rem;
+}
+
+.demo-details .key-value-accent .name.highlighted {
+    color: var(--color-accent);
+}
+
+.demo-details .events {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.demo-details .events .events-container {
+    padding-left: 2rem 2rem 2rem .5rem;
+    border-left: solid 4px var(--color-text-secondary);
+}
+
+.demo-details .events h3 {
+    color: var(--color-text-secondary);
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    margin-left: .5rem;
+}
+
+.demo-details .events .status-list {
+    color: var(--color-text-primary);
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+
+.demo-details .events .status-list li {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.demo-details .events .status-list li:first-child {
+    margin-top: .75rem;
+}
+
+.demo-details .events .status-list li i {
+    margin-right: 1rem;
+}
+
+.demo-details .events li i.done {
+    color: var(--color-okay);
+}
+
+.demo-details .events li i.waiting {
+    color: rgb(245, 107, 81);
+}
+
+.demo-details .events li i.next {
+    color: var(--color-text-secondary);
+}
+
+.demo-details .controls-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.demo-details .controls-container button {
+    color: var(--color-text-primary);
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: .3rem;
+}
+
+.demo-details .controls-container button.highlighted {
+    color: var(--color-accent);
+}
+
+@media only screen and (max-width:320px) {
+    .demo-details .events h3 {
+        font-size: 1rem;
+    }
+    .demo-details .events .status-list li {
+        font-size: .8rem;
+    }
+    .demo-details .controls-container button {
+        font-size: .8rem;
+    }
+    .demo-details .controls-container {
+        margin-right: 0rem;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'one two' 'three three';
+    }
+    .grid-one {
+        grid-area: one;
+        width: 98%;
+    }
+    .file-manager {
+        grid-area: two;
+    }
+    .editor {
+        grid-area: three;
+    }
+    .grid-container .file-manager {
+        margin-top: 0rem;
+    }
+}
