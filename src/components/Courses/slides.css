@@ -1,0 +1,27 @@
+.image-container{
+    background-image:url("../../images/arrows-3435587_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.content-header{
+    font-size: 1.8rem;
+line-height: 3rem;
+color: var(--color-text-primary);
+}
+.slide-content{
+    font-size: 1rem;
+line-height: 1.5rem;
+color: var(--color-text-primary);
+}
+.slide-links{
+    font-size: 1rem;
+line-height: 2rem;
+color: var(--color-text-primary);
+}
+.blur-layer{
+    background-color: rgba(0,0,0,.8);
+    padding: .2rem;
+}

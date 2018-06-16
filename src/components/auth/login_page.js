@@ -39,7 +39,7 @@ class LoginPage extends Component {
       showEmail = true;
     }
     return (
-      <div className="card card-medium login">
+      <div className="card card-medium login login-homepage">
         <h2>Login</h2>
         <form name="login">
           {showEmail && <input type="email" placeholder="email" onChange={this.onChangeLoginForm} data-name="email" />}

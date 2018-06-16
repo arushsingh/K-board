@@ -7,7 +7,7 @@ import * as userActions from '../actions/auth-actions';
 
 const authHandler = (Component) => {
   class Handler extends React.Component {
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
       this.checkAuth();
     }
 

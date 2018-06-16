@@ -1,0 +1,16 @@
+.course-mainpage{
+    display: grid;
+    grid-template-areas: 1fr;
+    grid-template-areas: 'details-tiles'
+                         'topic-page'
+                        'slides-container';
+                         grid-gap: .5rem;
+}
+@media only screen and (min-width:960px){
+.course-mainpage{
+display: grid;
+grid-template-areas: 1fr 1fr 1fr;
+grid-template-areas: 'student-page-container details-tiles topic-page'
+                      'student-page-container slides-container slides-container';    
+}
+}

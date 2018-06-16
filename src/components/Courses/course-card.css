@@ -1,0 +1,67 @@
+.course-slide-overlay{
+    text-align: center;
+}
+.course-form{
+    display: inherit;
+}
+.course-form-header{
+text-transform: uppercase;
+font-size: 1.5rem;
+line-height: 2.2rem;
+}
+.course-slide-overlay .course-form input{
+    margin-bottom: 1rem;
+    border: var(--primary-border);
+    border-radius: 3px;
+    width: 90%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+     appearance: none;
+    color: var(--color-input);
+    background-color: #2a2a2a;
+    height: 2.3rem;
+}
+.course-form button{
+    width: 90%;
+    height: 2.3rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+     appearance: none;
+    font-size: 1.3rem;
+    padding: .2rem;
+    background-color: #212121;
+    border: var(--primary-border);
+    color: var(--color-input);
+    margin-bottom: 2rem;
+}
+@media only screen and (min-width:600px){
+    .course-slide-overlay .course-form input{
+        width: 70%;
+    }
+    .course-form button{
+        width: 70%;
+    }
+    .course-slide-overlay{
+        width: 65%;
+    }
+    .course-slide-form{
+        text-align: -moz-center;
+        text-align: -webkit-center;
+    }
+}
+@media only screen and (min-width:1024px){
+    .course-slide-overlay{
+        width: 55%;
+    }
+}
+@media only screen and (min-width:1280px){
+    .course-slide-overlay{
+        width: 40%;
+    }
+    .course-slide-overlay .course-form input{
+        width: 90%;
+    }
+    .course-form button{
+        width: 90%;
+    }
+}

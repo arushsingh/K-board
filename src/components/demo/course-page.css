@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+.student-page-container{
+    display: none;
+    grid-area: student-page-container;
+}
+.student_profile_container{
+    width: 14%;
+}
+.profile-header {
+    display: flex;
+    justify-items: center;
+}
+.profile-header .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.profile-header h3{
+    align-self: center;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Francois One', sans-serif;
+    place-self:space-around;
+    line-height: 1.5rem;
+    padding: .5rem;
+}
+.skill-level {
+    padding: .5rem 0 .5rem 0;
+    color: var(--color-text-primary);
+    font-size: .8rem;
+}
+.skill-level ul li {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    font-family: 'Francois One', sans-serif;
+}
+.skill-level ul li span{
+    color:  #fdfefe;
+}
+.skill-level ul li:nth-child(2) span{
+    color: #E21F3F;
+}
+/* programming card */
+.details-card{
+    width: 100%;
+}
+@media only screen and (min-width:900px){
+    .student-page-container{
+        display: block;
+        grid-area: student-page-container;
+    }
+    .student_profile_container{
+        width: 100%;
+    }    
+}

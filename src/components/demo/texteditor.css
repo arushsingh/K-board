@@ -1,35 +1,8 @@
 .editor {
-    overflow: scroll;
+    overflow: auto;
     width: 100%;
     color: var(--color-text-secondary);
     font-size: 1rem;
     font-weight: 700;
-    min-height: 30vh;
     margin-bottom: 1rem;
-}
-
-@media only screen and (min-width:768px) {
-    .editor {
-        height: 67vh;
-        overflow: auto;
-    }
-}
-
-@media only screen and (min-width:1024px) {
-    .editor {
-        height: 56vh;
-        overflow: scroll;
-    }
-}
-
-@media only screen and (min-width:1280px) {
-    .editor {
-        height: 52vh;
-    }
-}
-
-@media only screen and (min-width:1366px) {
-    .editor {
-        height: 16rem;
-    }
 }

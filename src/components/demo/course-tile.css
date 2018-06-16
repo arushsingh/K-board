@@ -1,0 +1,78 @@
+.details-tiles{
+    width: 100%;
+    color: white;
+    grid-area: details-tiles;
+}
+.details-tiles .details-card{
+    background-image: url('../../images/arrows-3435587_960_720.jpg');
+}
+ .details-header {
+    font-family: var(--primary-font-1);
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+    color: white;
+}
+.details-card .rating{
+    color: goldenrod;
+    line-height: 1.5rem;
+}
+.details-card .course-content-data{
+    font-size: 1rem;
+line-height: 1.2rem;
+word-break: normal;
+word-wrap: normal;
+}
+.details-selector{
+    display: flex;
+}
+.details-card  li button{
+    margin-top: .5rem;
+margin-bottom: .5rem;
+background-color: transparent;
+color: #E21F3F;
+border: 1px solid #E21F3F;
+padding: .5rem;
+font-size: 1rem;
+line-height: 1.2rem;
+font-family: var(--primary-font-1);
+}
+.details-selector li {
+    margin-left: 1rem;
+font-size: 1rem;
+margin-top: .5rem;
+}
+@media only screen and (max-width:320px){
+    .details-selector li{
+        margin-left: .5rem;
+        font-size: .9rem;
+        margin-top: .5rem;
+    }
+    .details-header{
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (min-width:600px){
+    .details-wrapper li:nth-child(4){
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+    .details-selector li {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width:768px){
+    .details-selector li{
+        margin-left: 2rem;
+    }
+}
+@media only screen and (min-width:960px){
+    .details-selector li{
+        margin-left: 1rem;
+    }
+}
+@media only screen and (min-width:1280px){
+    .details-card .course-content-data{
+        line-height: 1.5rem;
+    }
+}

@@ -11,18 +11,15 @@ const sidebar = ({ activeStyle }) => {
           <li className="icon"><NavLink to="/" activeStyle={activeStyle}><i className="fa fa-home"></i></NavLink></li>
           <li className="icon"><NavLink to="/demo" activeStyle={activeStyle}><i className="fa fa-code"></i></NavLink></li>
           <li className="icon"><NavLink to="/add" activeStyle={activeStyle}><i className="fa fa-plus"></i></NavLink></li>
-          <li className="icon"><NavLink to="/students" activeStyle={activeStyle}><i className="fa fa-id-badge"></i></NavLink></li>
-          <li className="icon"><NavLink to="/asessment" activeStyle={activeStyle}><i className="fa fa-flag-checkered"></i></NavLink></li>
+          <li className="icon"><NavLink to="/CoursePage" activeStyle={activeStyle}><i className="fa fa-id-badge"></i></NavLink></li>
+          <li className="icon"><NavLink to="/slides" activeStyle={activeStyle}><i className="fa fa-flag-checkered"></i></NavLink></li>
         </ul>
       </div>
     </div>
   );
 }
-
 const { object } = PropTypes;
-
 sidebar.propTypes = {
   activeStyle: object.isRequired
 }
-
 export default sidebar;
